@@ -1,0 +1,77 @@
+/*---------------------------------------------------colors*/
+h1 {
+    
+    font-size: 60px;
+    background-color:red;
+}
+
+h2 {
+    
+    background-color: blue;
+    font-size: 50px;
+}
+
+
+/*---------------------------------------------------colors*/
+
+
+
+
+header {
+    background-color: green;
+}
+
+
+
+/*---------------------------------------------------margins/text*/
+
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+}
+.menuitem {
+    background-color: gray;
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    background-color: cyan;
+    height: 800px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+/*---------------------------------------------------navigation*/
+
+
+/*---------------------------------------------------footer*/
+footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+
+
+.social {
+    padding-top: 50px;
+}
+
+.social li a{
+    padding-left: 50px;
+}
+.social li a i {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+    background: red;
+}
