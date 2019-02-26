@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Meet the Band</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title">The Monkees</h1>
+            </div>
+        </div>
+        <div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h2>Davy Jones</h2>
+                <h2>Micky Dolenz</h2>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h2>Michael Nesmith</h2>
+                <h2>Peter Tork</h2>
+            </div>
+        </div>
+        <div class="row">
+            <ul id="nav" class="list-inline clearfix">
+                <li class="col-xs-6 col-sm-4 col-md-2 menuitem">
+                    <a href="index.html"><span>Home</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-2 menuitem">
+                    <a href="band.html"><span>Band</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-2 menuitem">
+                    <a href="songs.html"><span>Songs</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-2 menuitem">
+                    <a href="images.html"><span>Images</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-2 menuitem">
+                    <a href="tour.html"><span>Tour</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-2 menuitem">
+                    <a href="contact.html"><span>Contact</span></a>
+                </li>
+                
+            </ul>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2 social-feed">
+                
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 section-contact">
+                <form>
+                    <h3>Contact us to play for you</h3>
+                    <h4>No crowd is too large</h4>
+                    <h4>No venue too small</h4>
+                    <ul>
+                        <li>
+                           <label for="form-name">Name</label>
+                           <input type="text" name="username" id="form-name" class="textinput">
+                        </li>
+                        <li>
+                           <label for="form-email">Email</label>
+                           <input type="email" name="emailaddress" id="form-email" class="textinput">
+                        </li>
+                        <li>
+                           <label for="form-tel">Mobile</label>
+                           <input type="tel" name="telephone" id="form-tel" class="textinput">
+                        </li>
+                        <li>
+                            <label for="countries">Country</label>
+                            <select name="country">
+                                <option>Ireland</option>
+                                <option>Northern Ireland</option>
+                                <option>England</option>
+                                <option>Scotland</option>
+                                <option>Wales</option>
+                                <option>France</option>
+                                <option>Spain</option>
+                                <option>Germany</option>
+                            </select>
+                        </li>
+                        <li>
+                           <label for="form-story">Additional Info</label>
+                           <textarea name="info" maxlength="300" id="form-info" rows="3"
+                           cols="30"  placeholder="No more than 300 characters long"></textarea>
+                        </li>
+                        <li>
+                            <fieldset id="venue">
+                                <legend>Venue Type</legend>
+                                <ul>
+                                    <li><label><input type="radio" name="venue" value="venue">Football Stadium</label></li>
+                                    <li><label><input type="radio" name="venue" value="venue">Convention Center</label></li>
+                                    <li><label><input type="radio" name="venue" value="venue">Church</label></li>
+                                    <li><label><input type="radio" name="venue" value="venue">Music Hall</label></li>
+                                    <li><label><input type="radio" name="venue" value="venue">Public House</label></li>
+                                </ul>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset id="music">
+                                <legend>Music Preference</legend>
+                                <li><label><input type="radio" name="music" value="music">Pop</label></li>
+                                <li><label><input type="radio" name="music" value="music">Jazz</label></li>
+                                <li><label><input type="radio" name="music" value="music">Rock</label></li>
+                                <li><label><input type="radio" name="music" value="music">Country</label></li>
+                                <li><label><input type="radio" name="music" value="music">Jass</label></li>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset id="packages">
+                                <legend>Package</legend>
+                                <ul>
+                                    <li>
+                                        <label><input type="checkbox" name="package" value="package">Morning Performance</label>
+                                        <label><input type="checkbox" name="package" value="package">Afternoon Performance</label>
+                                        <label><input type="checkbox" name="package" value="package">Evening Performance</label>
+                                        <label><input type="checkbox" name="package" value="package">Night Performance</label>
+                                        <label><input type="checkbox" name="package" value="package">Film Crew</label>
+                                        <label><input type="checkbox" name="package" value="package">Lighting</label>
+                                        <label><input type="checkbox" name="package" value="package">Smoke Machine</label>
+                                    </li>
+                                </ul>
+                                
+                            </fieldset>
+                        </li>
+                    </ul>
+                   
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <p>Come follow the musical revolution.</p>
+                <p>An exciting and new future awaits these men of legend</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <img src="assets/images/logo.png" class="logo"></img>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <ul class="list-inline social">
+                    <li><a taget="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                    <li><a taget="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                    <li><a taget="_blank" href="https://www.yutube.com"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
