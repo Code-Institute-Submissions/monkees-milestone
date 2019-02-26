@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Coiny');
+@import url('https://fonts.googleapis.com/css?family=Coiny|Indie+Flower');
 
 
-/*---------------------------------------------------colors*/
+/*---------------------------------------------------header*/
 
 header {
     background-color: #000000;
 }
 
 
-.social-feed {
-    background-color: gray;
-    height: 800px;
-}
+
 
 h1 {
     
@@ -21,14 +18,14 @@ h1 {
 }
 
 h2 {
-    
     color: blue;
+    font-family: "indie flower";
     font-size: 50px;
     min-width: 360px;
 }
 
 
-/*---------------------------------------------------colors*/
+
 
 
 
@@ -38,39 +35,214 @@ h2 {
 
 /*---------------------------------------------------margins/text*/
 
-h1, h2, h3, h4, h5, h6, p {
-    text-align: center;
-}
-.menuitem {
-    background-color: gray;
-    font-size: 40px;
+h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 
-section {
-    
-    height: 800px;
+.underline {
+    text-decoration:underline;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    height: 200px;
+.uppercase {
+    text-transform: uppercase;
 }
+
+.large-text{
+    font-size: 50px;
+    font-family: "coiny";
+}
+
 
 /*---------------------------------------------------navigation*/
+.menuitem {
+    background-color: #000;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuitem a {
+    text-decoration: none;
+}
+/*---------------------------------------------------purchase-order*/
+
+.purchase-order {
+    background-color: gray;
+    min-height: 2000px;
+    min-width: 300px;
+}
+
+.album {
+    background-color: #fff;
+    padding-top: 50px;
+    margin-bottom:10px;
+}
+
+.album p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+/*---------------------------------------------------band*/
+.background-home {
+    margin-top: 100px;
+}
+.section-home {
+    background-image: url(/assets/images/monkees.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+    color: red;
+    background-attachment: inherit;
+    min-height: 2000px;
+    
+}
+
+/*---------------------------------------------------songs*/
+
+.lyrics-base {
+    
+    
+    padding: 50px;
+}
+.lyrics {
+    
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+/*---------------------------------------------------images*/
+
+/*---------------------------------------------------tour*/
+.tour-dates {
+    background-image: url(/assets/images/new-monkees.jpg);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    color: #fff;
+}
+
+/*---------------------------------------------------contact*/
+
+form ul {
+    list-style-type: none;
+}
+
+form ul li {
+    clear: both;
+}
+
+form {
+    display: center;
+    width: 900px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-shadow: .2em .2em .5em #999;
+    background-color: #d0e9f6;
+    padding: 1em;
+    overflow: hidden;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 10em;
+    text-align: right;
+    margin-right: .5em;
+    color: #04699d;
+}
+
+input.textinput {
+    width: 30em;
+    height: 2em;
+    border: 1px solid #666;
+}
+
+textarea {
+    display: block;
+    width: 30em;
+    height: 5em;
+    border: 1px solid #666;
+    margin-bottom: 1em;
+    line-height: 1.25;
+    overflow: auto;
+    resize: none;
+}
+
+input.textinput, textarea {
+    font-family: Times, sans-serif;
+    font-size: .875em;
+}
+
+fieldset{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+legend {
+    display: block;
+    width: 10em;
+    float: left;
+    margin-right: .5em;
+    text-align: right;
+    color: #04699d;
+}
+
+.options label {
+    color: #000;
+    display: inline;
+    float: none;
+    text-align: inherit;
+    width: auto;
+    font-weight: normal;
+    background-color: inherit;
+}
+
+.options ul li {
+    display: inline;
+    margin-bottom: 0;
+    clear: none;
+}
+.options ul {
+    margin-left: 11em;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: block;
+    width: 10em;
+    height: 2em;
+    float: left;
+    background: #d0e9f6;
+    font-size: inherit;
+    border: 1px solid #04699d;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+}
+
+input[type="submit"] {
+    margin-left: 15em;
+    margin-right: 5em;
+    color: green;
+}
+
+input[type="reset"] {
+    color: red;
+}
 
 
 /*---------------------------------------------------footer*/
 footer {
-    background-color: black;
+    background-color: #525252;
     color: white;
-    height: 200px;
+    min-height: 200px;
+    float:bottom;
 }
-.logo {
-    width: 100px;
-    height: 100px;
-    
+.footer-text{
+    margin-top: 50px;
 }
 
 

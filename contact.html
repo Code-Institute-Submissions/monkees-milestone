@@ -17,18 +17,18 @@
             </div>
         </div>
         <div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 uppercase">
                 <h2>Davy Jones</h2>
                 <h2>Micky Dolenz</h2>
             </div>
             
-            <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 uppercase">
                 <h2>Michael Nesmith</h2>
                 <h2>Peter Tork</h2>
             </div>
         </div>
         <div class="row">
-            <ul id="nav" class="list-inline clearfix">
+            <ul id="nav" class="list-inline clearfix uppercase">
                 <li class="col-xs-6 col-sm-4 col-md-2 menuitem">
                     <a href="index.html"><span>Home</span></a>
                 </li>
@@ -53,14 +53,72 @@
     </header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-2 col-md-2 social-feed">
-                
+            <div class="col-xs-12 col-sm-3 col-md-2 purchase-order">
+                <h3 class="uppercase">Purchase Album</h3>
+                <div class="col-md-12 album">
+                    <h4>More Greatest Hits of the Monkees</h4>
+                    <p><img src="assets/images/album.jpg" width="200" height="200" alt=""></p>
+                    <h4>Tracks:</h4>
+                    <ol>
+                        <li>Take a Giant Leap</li>
+                        <li>Mary, Mary</li>
+                        <li>Sometime in the Morning</li>
+                        <li>Cuddly Toy</li>
+                        <li>Randy Scouse Git</li>
+                        <li>Words</li>
+                        <li>Valleri</li>
+                        <li>You Just May Be the One</li>
+                        <li>The Girl I Knew Somewhere</li>
+                        <li>Saturday's Child</li>
+                        <li>Look out(Here Come Tomorrow)</li>
+                        <li>For Pete's Sake</li>
+                    </ol>
+                </div>
+                <div class="col-md-12 album">
+                    <h4>The Very Best of the Monkees</h4>
+                    <p><img src="assets/images/album2.jpg" width="200" height="200" alt=""></p>
+                    <h4>Tracks:</h4>
+                    <ol>
+                        <li>[Theme from] The Monkees</li>
+                        <li>Last Train to Clarksville</li>
+                        <li>Take a Giant Leap</li>
+                        <li>Saturday's Child</li>
+                        <li>Papa Gene's Blues</li>
+                        <li>I Wanna Be Free</li>
+                        <li>I'm a Believer</li>
+                        <li>(i'm Not Your) Steppin' Stone</li>
+                        <li>She</li>
+                        <li>Mary, Mary</li>
+                        <li>Your Auntie Grizelda</li>
+                        <li>Look Out (Here Comes Tomorrow)</li>
+                    </ol>
+                </div>
+                <div class="col-md-12 album">
+                    <h4>Greatest Hits of the Monkees</h4>
+                    <p><img src="assets/images/cover.jpg" width="200" height="200" alt=""></p>
+                    <h4>Tracks:</h4>
+                    <ol>
+                        <li>Daydream Believer</li>
+                        <li>Pleasant Valley Sunday</li>
+                        <li>Cuddly Toy</li>
+                        <li>Shades of Gray</li>
+                        <li>Zor and Zam</li>
+                        <li>A Little Bit Me, a Little Bit You</li>
+                        <li>She</li>
+                        <li>Randy Scouse Git</li>
+                        <li>I Wanna Be Free</li>
+                        <li>I'm a Believer</li>
+                        <li>Valleri</li>
+                        <li>Mary, Mary</li>
+                    </ol>
+                </div>
             </div>
             <div class="col-xs-12 col-sm-10 col-md-10 section-contact">
+                <h3>No crowd is too large!</h3>
+                <h3>No venue too small!</h3>
                 <form>
-                    <h3>Contact us to play for you</h3>
-                    <h4>No crowd is too large</h4>
-                    <h4>No venue too small</h4>
+                    <h4>Contact us</h4>
+                    
                     <ul>
                         <li>
                            <label for="form-name">Name</label>
@@ -78,10 +136,10 @@
                             <label for="countries">Country</label>
                             <select name="country">
                                 <option>Ireland</option>
-                                <option>Northern Ireland</option>
-                                <option>England</option>
-                                <option>Scotland</option>
-                                <option>Wales</option>
+                                <option>UK</option>
+                                <option>Italy</option>
+                                <option>Belgium</option>
+                                <option></option>
                                 <option>France</option>
                                 <option>Spain</option>
                                 <option>Germany</option>
@@ -93,11 +151,11 @@
                            cols="30"  placeholder="No more than 300 characters long"></textarea>
                         </li>
                         <li>
-                            <fieldset id="venue">
-                                <legend>Venue Type</legend>
+                            <fieldset class="options">
+                                <legend>Venue</legend>
                                 <ul>
                                     <li><label><input type="radio" name="venue" value="venue">Football Stadium</label></li>
-                                    <li><label><input type="radio" name="venue" value="venue">Convention Center</label></li>
+                                    <li><label><input type="radio" name="venue" value="venue">Conference Hall</label></li>
                                     <li><label><input type="radio" name="venue" value="venue">Church</label></li>
                                     <li><label><input type="radio" name="venue" value="venue">Music Hall</label></li>
                                     <li><label><input type="radio" name="venue" value="venue">Public House</label></li>
@@ -105,31 +163,37 @@
                             </fieldset>
                         </li>
                         <li>
-                            <fieldset id="music">
-                                <legend>Music Preference</legend>
-                                <li><label><input type="radio" name="music" value="music">Pop</label></li>
-                                <li><label><input type="radio" name="music" value="music">Jazz</label></li>
-                                <li><label><input type="radio" name="music" value="music">Rock</label></li>
-                                <li><label><input type="radio" name="music" value="music">Country</label></li>
-                                <li><label><input type="radio" name="music" value="music">Jass</label></li>
+                            <fieldset class="options">
+                                <legend>Music</legend>
+                                <ul>
+                                    <li><label><input type="radio" name="music" value="music">Pop</label></li>
+                                    <li><label><input type="radio" name="music" value="music">Jazz</label></li>
+                                    <li><label><input type="radio" name="music" value="music">Rock</label></li>
+                                    <li><label><input type="radio" name="music" value="music">Country</label></li>
+                                    <li><label><input type="radio" name="music" value="music">Death Metal</label></li>
+                                </ul>
                             </fieldset>
                         </li>
                         <li>
-                            <fieldset id="packages">
-                                <legend>Package</legend>
+                            <fieldset class="options">
+                                <legend>Packages</legend>
                                 <ul>
                                     <li>
-                                        <label><input type="checkbox" name="package" value="package">Morning Performance</label>
-                                        <label><input type="checkbox" name="package" value="package">Afternoon Performance</label>
-                                        <label><input type="checkbox" name="package" value="package">Evening Performance</label>
-                                        <label><input type="checkbox" name="package" value="package">Night Performance</label>
+                                        <label><input type="checkbox" name="package" value="package">Promotion</label>
+                                        <label><input type="checkbox" name="package" value="package">Flowers</label>
+                                        <label><input type="checkbox" name="package" value="package">Catering</label>
+                                        <label><input type="checkbox" name="package" value="package">Night</label>
                                         <label><input type="checkbox" name="package" value="package">Film Crew</label>
                                         <label><input type="checkbox" name="package" value="package">Lighting</label>
-                                        <label><input type="checkbox" name="package" value="package">Smoke Machine</label>
+                                        <label><input type="checkbox" name="package" value="package">Pyro-technics</label>
                                     </li>
                                 </ul>
                                 
                             </fieldset>
+                        </li>
+                        <li class="buttons">
+                            <input type="submit" value="Submit Form!">
+                            <input type="Reset">
                         </li>
                     </ul>
                    
@@ -137,16 +201,15 @@
             </div>
         </div>
     </section>
-    <footer class="container-fluid">
+     <footer class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <p>Come follow the musical revolution.</p>
-                <p>An exciting and new future awaits these men of legend</p>
+            <div class="col-xs-12 col-sm-12 col-md-6 footer-text">
+                <p class="uppercase">Let Us entertain you!</p>
+                <p class="uppercase">Follow our past and future successes!</p>
+                <p class="uppercase">Link to our new social media platforms!</p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <img src="assets/images/logo.png" class="logo"></img>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4">
+            
+            <div class="col-xs-12 col-sm-12 col-md-6">
                 <ul class="list-inline social">
                     <li><a taget="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                     <li><a taget="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
