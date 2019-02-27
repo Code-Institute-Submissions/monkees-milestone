@@ -35,7 +35,7 @@ h2 {
 
 /*---------------------------------------------------margins/text*/
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, div{
     text-align: center;
 }
 
@@ -134,9 +134,39 @@ h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 100px;
 }
 /*---------------------------------------------------tour*/
-.tour-dates {
+.tours {
+    margin-top: 100px;
+    margin-bottom: 100px;
     
+    text-align: center;
+}
+.tour-video {
+    
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
     color: #fff;
+    
+    
+    
+}
+
+.tour-dates {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #000;
+    color: #fff;
+    
+}
+.tour-video p{
+    text-align: center;
+}
+.notice {
+    background-color: #000;
+}
+
+.alert{
+    color: red;
 }
 
 /*---------------------------------------------------contact*/
